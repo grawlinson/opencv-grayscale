@@ -18,10 +18,10 @@ RMDIR := rmdir
 all: $(TARGET)
 
 $(TARGET): $(OBJ_FILES)
-	$(CXX) $(LDLIBS) -o $@ $^
+	$(CXX) $^ $(LDLIBS) -o $@
 
 obj/%.o: $(SRC_DIR)/%.cpp | $(OBJ_DIR)
-	$(CXX) $(CXXFLAGS) -c -o $@ $<
+	$(CXX) $< $(CXXFLAGS) -c -o $@
 
 $(OBJ_DIR):
 	mkdir -p $@
