@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2015 George Rawlinson <mailto:george@rawlinson.net.nz>
+Copyright (c) 2016 George Rawlinson <mailto:george@rawlinson.net.nz>
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
